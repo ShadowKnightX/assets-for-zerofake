@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "sender": "Unknown",
+    "messages": [
+      { "text": "يا محمد، كسبت جايزة من البنك!", "sender": "them", "isPhish": true },
+      { "text": "جد؟ ازاي؟", "sender": "you", "isPhish": false },
+      { "text": "ادخل بياناتك هنا: http://bank-eg.co", "sender": "them", "isPhish": true }
+    ]
+  },
+  {
+    "id": "2",
+    "sender": "Friend",
+    "messages": [
+      { "text": "هي، في حد بعتلي كود واتساب، اعمل ايه؟", "sender": "you", "isPhish": false },
+      { "text": "ابعت الكود بسرعة!", "sender": "them", "isPhish": true }
+    ]
+  }
+]
