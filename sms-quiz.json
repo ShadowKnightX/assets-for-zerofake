@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "sender": "Unknown",
+    "text": "مبروك! كسبت ٥٠٠٠ جنيه من فودافون. دوس الرابط: http://vodafone-win.com",
+    "isPhish": true,
+    "explanation": "Fake domain and urgent prize claim."
+  },
+  {
+    "id": "2",
+    "sender": "Bank",
+    "text": "البنك الأهلي: لن نطلب رمز التحقق عبر الرسائل.",
+    "isPhish": false,
+    "explanation": "Legitimate security reminder, no links."
+  },
+  {
+    "id": "3",
+    "sender": "Scammer",
+    "text": "اضغط هنا لتحديث بياناتك: http://bank-eg.co",
+    "isPhish": true,
+    "explanation": "Urgent prompt with fake domain."
+  }
+]
