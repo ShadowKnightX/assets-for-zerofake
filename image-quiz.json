@@ -1,1 +1,17 @@
 
+[
+  {
+    "id": "1",
+    "title": "Yahoo Login Email",
+    "text": "https://d3j20uveo70stj.cloudfront.net/opendns-www/img/phishing-quiz-img/screen-yahoo.png",
+    "isPhish": true,
+    "explanation": "Suspicious domain and urgent login prompt."
+  },
+  {
+    "id": "2",
+    "title": "PayPal login page",
+    "text": "https://cdn.kastatic.org/ka-perseus-images/a434d35ce5a499b4d48f764a19e4bd74b7a53cf5.png",
+    "isPhish": true,
+    "explanation": "Unofficial link."
+  }
+]
