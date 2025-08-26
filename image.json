@@ -15,21 +15,21 @@
   },
   {
     "id": "3",
-    "title": "Google Docs Phishing",
+    "title": "Google Docs",
     "text": "https://lh3.googleusercontent.com/uTWvxf7NR7alzT_VEF1wD31v3l6CeKG7M7nN4wpa-Z_nSGb5xsMUi19RTUTKQimqbu0=w577",
     "isPhish": true,
     "explanation": "صفحة مزيفة لتسجيل الدخول إلى Google."
   },
   {
     "id": "4",
-    "title": "Fake Bank of America",
+    "title": "Bank of America",
     "text": "https://lh3.googleusercontent.com/M1marY2U0TpG5jlbdOE-ISvmUaoLErD03-95JxDdxD89VDuUmgmctDiOOMmKOzZxB2Q=w280",
     "isPhish": true,
     "explanation": "نافذة منبثقة مخادعة تهدف إلى خداع المستخدم لحثّه على تثبيت برامج ضارة"
   },
   {
     "id": "5",
-    "title": "eBay Login Phish",
+    "title": "eBay Login",
     "text": "https://d3j20uveo70stj.cloudfront.net/opendns-www/img/phishing-quiz-img/screen-ebay.png",
     "isPhish": true,
     "explanation": "Untrusted domain mimicking eBay."
@@ -38,17 +38,17 @@
 
   {
     "id": "6",
-    "title": "Facebook Fake Login",
+    "title": "Facebook Login",
     "text": "https://d3j20uveo70stj.cloudfront.net/opendns-www/img/phishing-quiz-img/screen-facebook.png",
-    "isPhish": true,
-    "explanation": "Looks like Facebook but wrong domain."
+    "isPhish": false,
+    "explanation": "The correct domain of Facebook"
   },
 
   {
     "id": "7",
-    "title": "Dropbox Fake Login",
+    "title": "Dropbox Login",
     "text": "https://d3j20uveo70stj.cloudfront.net/opendns-www/img/phishing-quiz-img/screen-dropbox.png",
-    "isPhish": true,
-    "explanation": "Fake Dropbox sign-in attempt."
+    "isPhish": false,
+    "explanation": "The correct domain of Dropbox"
   }
 ]
