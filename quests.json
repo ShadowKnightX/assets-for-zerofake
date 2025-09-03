@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "description": "Daily Challenge - Earn 30 points in one day",
+    "reward": 15
+  },
+  {
+    "id": 2,
+    "description": "Beat a Friend - Beat your friend's score today",
+    "reward": 20
+  },
+  {
+    "id": 3,
+    "description": "Weekend Warrior - Complete 3 quizzes over the weekend",
+    "reward": 40
+  },
+  {
+    "id": 4,
+    "description": "Phishing Pro - Achieve a 90% accuracy in one quiz",
+    "reward": 60
+  },
+  {
+    "id": 5,
+    "description": "Team Effort - Join and complete a room with friends",
+    "reward": 35
+  }
+]
