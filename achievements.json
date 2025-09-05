@@ -60,25 +60,86 @@
     },
     {
       "id": 5,
-      "name": "Quiz Variety Expert",
-      "description": "Complete 3 SMS quizzes AND 2 dialogue quizzes",
-      "icon": "🎭",
+      "name": "Speed Demon",
+      "description": "Complete 10 SMS questions in under 10 seconds total",
+      "icon": "⚡",
       "points_reward": 50,
       "gems_reward": 20,
       "condition": {
-        "type": "and",
-        "rules": [
-          {
-            "field": "stats.sms_quizzes_completed",
-            "operator": ">=",
-            "value": 3
-          },
-          {
-            "field": "stats.dialogue_quizzes_completed",
-            "operator": ">=",
-            "value": 2
-          }
-        ]
+        "type": "comparison",
+        "field": "stats.sms_under_1_second",
+        "operator": ">=",
+        "value": 10
+      }
+    },
+    {
+      "id": 6,
+      "name": "Perfect Run",
+      "description": "Complete a full quiz with 100% accuracy",
+      "icon": "🏆",
+      "points_reward": 40,
+      "gems_reward": 15,
+      "condition": {
+        "type": "comparison",
+        "field": "stats.perfect_quizzes",
+        "operator": ">=",
+        "value": 1
+      }
+    },
+    {
+      "id": 7,
+      "name": "Consistency Master",
+      "description": "Maintain a 7-day training streak",
+      "icon": "🔥",
+      "points_reward": 60,
+      "gems_reward": 25,
+      "condition": {
+        "type": "comparison",
+        "field": "currentStreak",
+        "operator": ">=",
+        "value": 7
+      }
+    },
+    {
+      "id": 8,
+      "name": "Phishing Hunter",
+      "description": "Identify 25 phishing attempts across all quiz types",
+      "icon": "🎣",
+      "points_reward": 45,
+      "gems_reward": 18,
+      "condition": {
+        "type": "comparison",
+        "field": "stats.total_phishing_caught",
+        "operator": ">=",
+        "value": 25
+      }
+    },
+    {
+      "id": 9,
+      "name": "Quick Reflexes",
+      "description": "Answer 5 questions in under 0.5 seconds each",
+      "icon": "⏱️",
+      "points_reward": 35,
+      "gems_reward": 12,
+      "condition": {
+        "type": "comparison",
+        "field": "stats.ultra_fast_answers",
+        "operator": ">=",
+        "value": 5
+      }
+    },
+    {
+      "id": 10,
+      "name": "Master Detective",
+      "description": "Reach 100 total correct answers",
+      "icon": "🕵️",
+      "points_reward": 75,
+      "gems_reward": 30,
+      "condition": {
+        "type": "comparison",
+        "field": "stats.total_correct",
+        "operator": ">=",
+        "value": 100
       }
     }
   ]
