@@ -69,7 +69,7 @@
         "type": "comparison",
         "field": "stats.sms_under_1_second",
         "operator": ">=",
-        "value": 10
+        "value": 30
       }
     },
     {
