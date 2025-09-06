@@ -141,6 +141,20 @@
         "operator": ">=",
         "value": 100
       }
+    },
+    {
+      "id": 11,
+      "name": "Lightning Fast",
+      "description": "Finish a full quiz in under 20 seconds",
+      "icon": "⚡",
+      "points_reward": 100,
+      "gems_reward": 40,
+      "condition": {
+        "type": "comparison",
+        "field": "stats.fast_quizzes_completed",
+        "operator": ">=",
+        "value": 1
+      }
     }
   ]
 }
