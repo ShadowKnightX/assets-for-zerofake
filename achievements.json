@@ -95,7 +95,7 @@
       "gems_reward": 25,
       "condition": {
         "type": "comparison",
-        "field": "currentStreak",
+        "field": "streak",
         "operator": ">=",
         "value": 7
       }
