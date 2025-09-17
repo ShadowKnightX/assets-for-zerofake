@@ -208,5 +208,79 @@
     "text": "عميلنا العزيز: لا تشارك كلمة السر أو رمز التحقق مع أي شخص.",
     "isPhish": false,
     "explanation": "Legit security advice."
-  }
+  },
+{
+"id": "31",
+"sender": "Scammer",
+"text": "فزت بأحدث آيفون! ادخل على الرابط عشان تستلمه: http://win-iphone-eg.com
+",
+"isPhish": true,
+"explanation": "Prize claim with suspicious domain; typical phishing."
+},
+{
+"id": "32",
+"sender": "Electricity",
+"text": "تنبيه: صيانة مجدولة غداً على شبكات المنطقة من الساعة ١٠ صباحاً إلى ٢ ظهراً.",
+"isPhish": false,
+"explanation": "Service maintenance notice from utility, no links."
+},
+{
+"id": "33",
+"sender": "Scammer",
+"text": "حصلت مخالفة جديدة باسمهك، ادفعها هنا فوراً: http://speeding-pay-eg.net
+",
+"isPhish": true,
+"explanation": "Threat/urgency with fake payment link."
+},
+{
+"id": "34",
+"sender": "Friend",
+"text": "الجمعة عملتنا طلعة، تيجي معانا ولا لأ؟",
+"isPhish": false,
+"explanation": "Casual invitation between friends."
+},
+{
+"id": "35",
+"sender": "Scammer",
+"text": "لو سمحت ابعتلي رمز التحقق اللى وصلك عشان نكمل التحديث.",
+"isPhish": true,
+"explanation": "Directly requests OTP — classic phishing/credential theft."
+},
+{
+"id": "36",
+"sender": "شركة الشحن",
+"text": "شحنتك وصلت للفرع القريب منك، استلمها خلال ٧ أيام عمل.",
+"isPhish": false,
+"explanation": "Typical courier notification without suspicious link."
+},
+{
+"id": "37",
+"sender": "Scammer",
+"text": "وزارة التربية والتعليم: طلّع بيانات الطالب من هنا للحصول على المعاش: http://edu-update-egy.com
+",
+"isPhish": true,
+"explanation": "Impersonation of ministry + suspicious domain."
+},
+{
+"id": "38",
+"sender": "Bank",
+"text": "تنبيه أمني: لو شفت أي نشاط مش واضح في حسابك اتصل بخدمة العملاء فوراً.",
+"isPhish": false,
+"explanation": "Generic security advisory from bank, no links or requests for data."
+},
+{
+"id": "39",
+"sender": "Scammer",
+"text": "ساهم بتبرع لمتضرري الفيضان هنا: http://donate-relief-eg.org
+ — ادخل وادفع الآن",
+"isPhish": true,
+"explanation": "Fake charity link used to steal payment details."
+},
+{
+"id": "40",
+"sender": "University",
+"text": "جدول محاضرات الترم الجديد اتنشر على بوابة الكلية الرسمية.",
+"isPhish": false,
+"explanation": "Official academic announcement without suspicious elements."
+}
 ]
